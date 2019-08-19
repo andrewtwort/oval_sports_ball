@@ -1,0 +1,45 @@
+<html lang='en'>
+<head>
+  <meta charset='utf-8'>
+  <title>Oval Sports Ball Classifier</title>
+  <link rel='stylesheet' href='../static/style.css'>
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <script src='../static/client.js'></script>
+</head>
+<body>
+<div>
+  <div class='center'>
+    <div class='title'>🏉 Classify images of oval sports balls 🏈</div>
+    <p>
+      Use images of <strong>rubgy</strong> balls, <strong>australian rules</strong> footballs or <strong>american</strong> footballs.
+    </p>
+    <div class='content'>
+      <div class='no-display'>
+        <input id='file-input'
+               class='no-display'
+               type='file'
+               name='file'
+               accept='image/*'
+               onchange='showPicked(this)'>
+      </div>
+      <button class='choose-file-button' type='button' onclick='showPicker()'>Select Image</button>
+      <div class='upload-label'>
+        <label id='upload-label'>No file chosen</label>
+      </div>
+      <div>
+        <img id='image-picked' class='no-display' alt='Chosen Image' height='200'>
+      </div>
+      <div class='analyze'>
+        <button id='analyze-button' class='analyze-button' type='button' onclick='analyze()'>Analyze</button>
+      </div>
+      <div class='result-label'>
+        <label id='result-label'></label>
+      </div>
+    </div>
+  </div>
+</div>
+<footer id="footer">
+  <p>© Andrew Twort | Code: <a href="https://github.com/andrewtwort" target="_blank">GitHub</a> | <a href="https://www.fast.ai" target="_blank">ML model built with Fast AI</a></p>
+</footer>
+</body>
+</html>

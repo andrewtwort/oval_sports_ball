@@ -10,5 +10,5 @@ CNN built using the Fast AI library. Model specifications:
 - Note: We do not discriminate between Rugby Union and Rugby League balls
 
 # Sample images used in CNN training
-![oval sports balls](https://github.com/andrewtwort/oval-sports-ball-classifier/blob/master/Oval%20Balls.png)
+![oval sports balls](https://github.com/andrewtwort/oval_sports_ball/blob/master/Oval%20Balls.png)
 Sample images: [Wikipedia](https://en.wikipedia.org/wiki/Football_(ball))

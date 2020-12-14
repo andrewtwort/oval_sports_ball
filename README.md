@@ -7,7 +7,7 @@ CNN built using the Fast AI library. Model specifications:
 - Training: ~10 minutes on a GPU hosted on [Colab](https://colab.research.google.com); 94.4% accuracy
 - Supporting materials: Largely follows lesson 2 of the Fast AI [Practical Deep Learning for Coders (v3)](https://course.fast.ai/) course
 - Further reading: More on [prolate spheroids here](https://en.wikipedia.org/wiki/Football_(ball))
-- Note: We do not discriminate between Rugby Union and Rugby League balls
+- Note: Rugby Union and Rugby League balls treated as one class
 
 # Sample images used in CNN training
 ![oval sports balls](https://github.com/andrewtwort/oval_sports_ball/blob/master/Oval%20Balls.png)
